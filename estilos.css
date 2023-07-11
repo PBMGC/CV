@@ -59,7 +59,7 @@ html {
     display: flex;
   }
 
-  .menu-icon i{
+  .menu-icon i {
     font-size: 30px;
   }
 
@@ -127,16 +127,20 @@ html {
 }
 
 .formacion {
-  padding: 10px;
-  color: black;
-  background-color: #29e351;
+  padding: 20px;
+  color: #29e351;
+  background-color: black;
   text-align: center;
 }
 
-.formacion h3 {
+.f {
   text-transform: uppercase;
   font-weight: bold;
+  text-align: center;
   font-size: 25px;
+  margin-bottom: -1px;
+  padding: 10px;
+  background-color: #29e351;
 }
 
 .formacion img {
@@ -145,6 +149,7 @@ html {
 
 .formacion p {
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .len {
@@ -202,11 +207,9 @@ html {
   border: 3px solid #29e351;
 }
 
-.l .im img {
-  width: 140px;
-  height: 150px;
+.im i{
   margin-top: 20px;
-  object-fit: cover;
+  font-size: 150px;
 }
 
 .l p {
@@ -330,12 +333,11 @@ html {
   text-align: center;
 }
 
-@media screen and (max-width: 768px){
-    .pr-l{
-        flex-direction: column;
-    }
+@media screen and (max-width: 768px) {
+  .pr-l {
+    flex-direction: column;
+  }
 }
-
 
 .redes {
   margin-top: -30px;
@@ -381,16 +383,15 @@ html {
   -webkit-transform: scale(1.1);
 }
 
-@media screen and (max-width: 768px){
-    .pr-l{
-        flex-direction: column;
-    }
+@media screen and (max-width: 768px) {
+  .pr-l {
+    flex-direction: column;
+  }
 
-    .redes{
-        flex-direction: column;
-    }
+  .redes {
+    flex-direction: column;
+  }
 }
-
 
 footer {
   background-color: black;
@@ -398,4 +399,8 @@ footer {
   text-align: center;
   text-transform: uppercase;
   padding: 5px;
+}
+
+.correo-span{
+  display: none;
 }

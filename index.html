@@ -20,7 +20,7 @@
   </head>
   <body>
     <header class="cabecero">
-      <input type="checkbox" class="icon" id="menu-toggle">
+      <input type="checkbox" class="icon" id="menu-toggle" />
       <label for="menu-toggle" class="menu-icon">
         <i class="fa-solid fa-bars"></i>
       </label>
@@ -32,7 +32,6 @@
         <a href="cv/cv.pdf" target="_blank">descargar cv</a>
       </nav>
     </header>
-    
 
     <div class="banner">
       <div class="banner-contenido paralax">
@@ -51,8 +50,8 @@
       </p>
     </div>
 
+    <h3 class="f">formacion academica</h3>
     <div class="formacion" id="formacion">
-      <h3>formacion academica</h3>
       <img src="img/senati.png" alt="" />
       <p>desarrollador de software-4to semestre</p>
     </div>
@@ -63,50 +62,69 @@
       <div class="lenguajes">
         <ul class="lenguaje">
           <li class="l">
-            <div class="im"><img src="img/python.png" alt="" arrastrando="false"/></div>
+            <div class="im">
+              <i class="fa-brands fa-python" arrastrando="false"></i>
+            </div>
             <p>python</p>
           </li>
-          <!-- <li class="l">
-            <div class="im"><img src="img/flask.png" alt="" /></div>
-            <p>flask</p>
-          </li> -->
           <li class="l">
-            <div class="im"><img src="img/java.png" alt="" arrastrando="false"/></div>
+            <div class="im">
+              <i class="fa-solid fa-flask" arrastrando="false"></i>
+            </div>
+            <p>flask</p>
+          </li>
+          <li class="l">
+            <div class="im">
+              <i class="fa-brands fa-java" arrastrando="false"></i>
+            </div>
             <p>java</p>
           </li>
           <li class="l">
-            <div class="im"><img src="img/laptop.png" arrastrando="false"/></div>
+            <div class="im">
+              <i class="fa-solid fa-laptop" arrastrando="false"></i>
+            </div>
             <p>diseño web</p>
           </li>
           <li class="l">
             <div class="im">
-              <img src="img/Angular_full_color_logo.svg.png" alt="" arrastrando="false"/>
+              <i class="fa-brands fa-angular" arrastrando="false"></i>
             </div>
             <p>angular</p>
           </li>
           <li class="l">
-            <div class="im"><img src="img/js.png" alt="" arrastrando="false"/></div>
+            <div class="im">
+              <i class="fa-brands fa-js" arrastrando="false"></i>
+            </div>
             <p>javascript</p>
           </li>
           <li class="l">
-            <div class="im"><img src="img/db.webp" alt="" arrastrando="false"/></div>
+            <div class="im">
+              <i class="fa-solid fa-database" arrastrando="false"></i>
+            </div>
             <p>databases</p>
           </li>
           <li class="l">
-            <div class="im"><img src="img/wordpress.png"arrastrando="false"/></div>
+            <div class="im">
+              <i class="fa-brands fa-wordpress" arrastrando="false"></i>
+            </div>
             <p>wordpress</p>
           </li>
           <li class="l">
-            <div class="im"><img src="img/php.png" arrastrando="false"/></div>
-
+            <div class="im">
+              <i class="fa-brands fa-php" arrastrando="false"></i>
+            </div>
             <p>php</p>
           </li>
           <li class="l">
-            <div class="im"><img src="img/c++.png" arrastrando="false"/></div>
+            <div class="im">
+              <i class="fa-solid fa-c" arrastrando="false"></i>
+            </div>
             <p>c++</p>
           </li>
           <li class="l">
-            <div class="im"><img src="img/c#.png" alt="" arrastrando="false"/></div>
+            <div class="im">
+              <i class="fa-solid fa-c" arrastrando="false"></i>
+            </div>
             <p>c#</p>
           </li>
         </ul>
@@ -118,19 +136,19 @@
       <ul class="pr-l">
         <li>
           <div class="p">
-            <img src="img/1.png" alt="">
+            <img src="img/1.png" alt="" />
             <p>Pagina Citas Medicas</p>
           </div>
         </li>
         <li>
           <div class="p">
-            <img src="img/2.png" alt="">
+            <img src="img/2.png" alt="" />
             <p>APP Angular PokeApi</p>
           </div>
         </li>
         <li>
           <div class="p">
-            <img src="img/3.png" alt="">
+            <img src="img/3.png" alt="" />
             <p>APP Angular Presupuesto</p>
           </div>
         </li>
@@ -141,13 +159,22 @@
     <p class="p-redes">Mis Redes</p>
     <div id="redes" class="redes">
       <div class="red">
-        <a href="https://github.com/PBMGC" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://github.com/PBMGC" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
       </div>
       <div class="red">
-        <a href=""><i class="fa-solid fa-envelope"></i></a>
+        <a onclick="copiar()" href="#" class="correo"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <span class="correo-span">dariogutierres456@gmail.com</span>
       </div>
       <div class="red">
-        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <a
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=51990187254"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
       </div>
     </div>
 
