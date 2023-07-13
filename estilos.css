@@ -48,6 +48,10 @@ html {
   text-transform: uppercase;
 }
 
+.menu a:hover{
+  color: white;
+}
+
 /* Estilos para pantalla pequeña */
 @media screen and (max-width: 768px) {
   .cabecero {
