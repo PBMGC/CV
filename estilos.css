@@ -207,7 +207,7 @@ html {
   border: 3px solid #29e351;
 }
 
-.im i{
+.im i {
   margin-top: 20px;
   font-size: 150px;
 }
@@ -405,6 +405,80 @@ footer {
   padding: 5px;
 }
 
-.correo-span{
+.correo-span {
   display: none;
+}
+
+.main-proyectos {
+  background-image: url(img/fondo.jpg);
+  width: 100%;
+  min-height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.proyectos {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.pp {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+  text-align: center;
+  position: relative;
+  background-color: #29e351;
+  padding: 20px;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+}
+
+.pp:hover{
+  -webkit-transform: rotate(2deg);
+}
+
+.pp img {
+  border-radius: 10px;
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.pp p {
+  background-color: black;
+  color: #29e351;
+  position: absolute;
+  -webkit-transition: all 0.5s ease-in-out;
+  bottom: 0;
+  left: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 10px;
+  width: 100%;
+  margin: 0;
+}
+
+.pp:hover p{
+  bottom: -50px;
+}
+
+@media (max-width: 768px) {
+  .pp {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .pp {
+    flex: 0 0 calc(100% - 20px);
+  }
 }
