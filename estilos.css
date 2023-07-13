@@ -391,6 +391,10 @@ html {
   .redes {
     flex-direction: column;
   }
+
+  .pr-l li {
+    padding: 10px;
+  }
 }
 
 footer {
