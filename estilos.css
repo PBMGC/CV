@@ -90,7 +90,7 @@ html {
   color: #29e351;
   text-align: center;
   align-items: center;
-  background-image: url(img/fondo.jpg);
+  background-image: url(img/fondo.webp);
   background-position: center center;
   background-size: cover;
   padding-bottom: 10px;
@@ -414,7 +414,7 @@ footer {
 }
 
 .main-proyectos {
-  background-image: url(img/fondo.jpg);
+  background-image: url(img/fondo.webp);
   width: 100%;
   min-height: 100vh;
   background-position: center center;
